@@ -29,7 +29,13 @@ All functions have the same structure:
 ```{r}
 # let's see a basic example of this:
 
+7*7*7
+7^3
+
 cube_me <- function(mynumber){
+  
+  result <- mynumber ^ 7
+  
   
   result <- mynumber ^ 3
     
@@ -46,6 +52,15 @@ cube_me(5)
 ```{r}
 # let's try another
 
+"The Cowboys stink"!
+  
+  teamname <- "Cowboys"
+
+paste0("The ", teamname, " stink!")
+```
+
+
+```{r}
 otherteam_function <- function(teamname){
   
   result <- paste0("The ", teamname, " stink!")

@@ -28,9 +28,12 @@ options(tigris_class = "sf")
 ```{r}
 
 
+1 + 1
 
+firstnumber <- 1
+secondnumber <- 4
 
-
+firstnumber + secondnumber
 ```
 
 2) Create a function that will return the mean of a list of numbers fed to it. (Remember that in our case we're using the word "list" for easier understanding, but we're talking about a "vector" of numbers in R-speak.)
